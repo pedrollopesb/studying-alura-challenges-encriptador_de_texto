@@ -1,0 +1,245 @@
+:root {
+  --cor-primaria: #222831;
+  --cor-destaque: #27e41d;
+  --cor-secundaria: #393e46;
+  --cor-de-texto: #ffffff;
+  --cor-hover-botaocrip: #61ff59;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: var(--cor-primaria);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12.5rem 4rem 1.75rem;
+}
+
+.logo {
+  margin: 2.5rem 0 0;
+}
+
+main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.criptografia {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 50%;
+  margin: 0 0 0 5rem;
+}
+
+.criptografia__texto,
+.resultado__texto {
+  resize: none;
+  font-size: 1.5625rem;
+  color: var(--cor-destaque);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.criptografia__texto:hover,
+.resultado__texto:hover {
+  box-shadow: inset 0 0 1em var(--cor-destaque), 0 0 1em var(--cor-destaque);
+  transition: all 0.2s ease-in-out
+}
+
+.criptografia__texto:focus,
+.resultado__texto:focus {
+  outline-color: var(--cor-destaque);
+  outline-style: solid;
+  outline-width: medium;
+}
+
+.criptografia__texto::placeholder {
+  color: var(--cor-destaque);
+}
+
+.criptografia__texto {
+  background: var(--cor-secundaria);
+  border-style: dashed;
+  border-color: var(--cor-destaque);
+  width: 80%;
+  height: 70vh;
+}
+
+#aviso {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+  color: var(--cor-de-texto);
+}
+
+.criptografia__btn {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8vh;
+  gap: 5vw;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 25px;
+  color: var(--cor-destaque);
+  font-weight: bold;
+  background: var(--cor-secundaria);
+  border: 2px solid var(--cor-destaque);
+  transition: 0.5s;
+}
+
+.btn:hover {
+  width: 200px;
+  height: 50px;
+  font-size: 23px;
+  padding: 5px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  background: var(--cor-destaque);
+  border-color: var(--cor-destaque);
+  cursor: pointer;
+}
+
+.resultado {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 35%;
+}
+
+.resultado__texto::placeholder {
+  height: 80vh;
+  background: url(./assets/sem-mensagem-verde.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--cor-destaque);
+  text-align: center;
+}
+
+.resultado__texto {
+  background: var(--cor-secundaria);
+  border-color: var(--cor-destaque);
+  width: 70%;
+  height: 90vh;
+}
+
+#copiar {
+  position: relative;
+  bottom: 20vh;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--cor-secundaria);
+  margin-bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+}
+
+.github {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid var(--cor-destaque);
+  border-radius: 0.25rem;
+}
+
+.github:hover {
+  top: -4px;
+  box-shadow: 0 5px 10px var(--cor-destaque);
+}
+
+.linkedin {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid var(--cor-destaque);
+  border-radius: 0.25rem;
+}
+
+.linkedin:hover {
+  top: -4px;
+  box-shadow: 0 5px 10px var(--cor-destaque);
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer p {
+  color: var(--cor-destaque);
+  font-size: 0.875rem;
+  text-align: center;
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 950px) {
+  body {
+    width: auto;
+  }
+
+  main {
+    display: block;
+  }
+
+  .criptografia,
+  .resultado {
+    width: 100%;
+    margin: 0;
+  }
+
+  #aviso {
+    align-items: center;
+    margin-left: 3vw;
+  }
+
+  .btn,
+  .btn:hover {
+    width: 150px;
+  }
+
+  #limpar,
+  #limpar:hover {
+    width: 190px;
+  }
+
+  .btn-criptografia {
+    margin-bottom: 5vh;
+  }
+
+  .texto,
+  .texto-resultado {
+    width: 80%;
+    height: 60vh;
+  }
+
+  .texto-resultado::placeholder {
+    height: 60vh;
+    font-size: 20px;
+  }
+
+  #copiar {
+    bottom: 10vh;
+  }
+}

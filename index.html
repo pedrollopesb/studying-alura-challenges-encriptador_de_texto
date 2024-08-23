@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./assets/logo-alura-verde.svg" alt="Logo da Alura" class="logo" onclick="resetarPaginaLogo()">
+
+        </header>
+        <main>
+            <div class="criptografia">
+                <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="criptografia__texto"></textarea>
+                <p id="aviso"><img src="assets/exclamacao.png" alt="Ponto de exclamação">Apenas letras minúsculas e sem acento!</p>
+                <div class="criptografia__btn">
+                    <button id="codificador" class="btn">Codificar</button>
+                    <button id="decodificador" class="btn">Decodificar</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <textarea wrap="hard" id="output" readonly placeholder="Digite um texto que você deseja criptografar ou descriptografar." class="resultado__texto"></textarea>
+                <button id="copiar" class="btn">Copiar</button>
+                <button id="limpar" class="btn">Limpar campos</button>
+            </div>
+        </main>
+        <footer class="rodape">
+            <div class="rodape_info">
+            <p>© Desenvolvido por Pedro Lopes | 2024</p>
+            <p>Challenge Programa ONE e Alura</p>
+            </div>
+            <div class="rodape__icones">
+              <a href="https://www.linkedin.com/in/pedrollopesb/" target="_blank"><img src="./assets/linkedin-logo-verde.png" alt="Logo do LinkedIn" class="linkedin" ></a>
+              <a href="https://github.com/pedrollopesb" target="_blank"><img src="./assets/github-icone-verde.png" alt="Logo do GitHub" class="github"></a>
+            </div>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

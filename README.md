@@ -6,7 +6,7 @@ Desafio Challenge Encriptador | Oracle ONE 2024 | Alura.
 - O projeto teve como base um design do Figma, porém, com permissão criativa para customizar de acordo com as suas preferências e identidade visual. No meu caso, utilizei um tema escuro com detalhes na cor verde (imitando uma iluminação), oferecendo um layout interativo ao navegar pela página.
 
 <p align="center">
-<img width="600" height="500" src=""/>
+<img width="600" height="500" src="./assets/projeto.png"/>
 </p>
 
 ## ✨ Funcionalidades:

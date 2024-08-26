@@ -1,13 +1,32 @@
 <h1 align="center">Alura Challenge | Encriptador de Texto | Oracle ONE</h1>
 
+<p align="center">
+<img width="900" src="./assets/Encriptador.png"/>
+</p>
+
 ## 💻 Sobre o projeto:
 Desafio Challenge Encriptador | Oracle ONE 2024 | Alura.
 - Encriptador de texto feito em HTML5, CSS3 e JavaScript.
 - O projeto teve como base um design do Figma, porém, com permissão criativa para customizar de acordo com as suas preferências e identidade visual. No meu caso, utilizei um tema escuro com detalhes na cor verde (imitando uma iluminação), oferecendo um layout interativo ao navegar pela página.
 
+## 🎨 Screenshots:
+<details><summary>Desktop:</summary>
 <p align="center">
-<img width="600" height="500" src="./assets/projeto.png"/>
+<img width="900" src="./assets/projeto.png"/>
 </p>
+</details>
+
+<details><summary>Tablet:</summary>
+<p align="center">
+<img width="600" src="./assets/projeto2.png"/>
+</p>
+</details>
+
+<details><summary>Mobile:</summary>
+<p align="center">
+<img height="1000" src="./assets/projeto3.png"/>
+</p>
+</details>
 
 ## ✨ Funcionalidades:
 - O Encriptador é um projeto web que permite a criptografia e descriptografia de textos utilizando um esquema básico de substituição de caracteres, conforme criptografia abaixo:
@@ -51,7 +70,7 @@ Badge Challenge Alura & Oracle ONE
 ---
 ![Prancheta 3](https://github.com/user-attachments/assets/be0fe943-38f0-4136-9679-60a7ca4fa2ae)
 
-## 🎨 Screenshots:
+## 🎨 Apresentação e funcionamento:
 
 <details><summary>Desktop:</summary>
 

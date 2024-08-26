@@ -52,7 +52,7 @@ Desafio Challenge Encriptador | Oracle ONE 2024 | Alura.
 - O resultado deve ser exibido na tela.
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
-## ✅ Extras:
+## 💡 Extras:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência, ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 - Adicionar responsividade ao projeto para diferentes tamanhos de tela.
 - Aparecerá uma mensagem de aviso, quando os requisitos informados não forem satisfeitos (de que o texto poderá apenas conter letras minúsculas e sem acento). Neste momento não será permitido a codifcação do texto, enquanto não atender as regras, deixando a mensagem em vermelho para destaque.
@@ -63,12 +63,15 @@ Desafio Challenge Encriptador | Oracle ONE 2024 | Alura.
 - **CSS:** Para estilização customizada e layout responsivo utilizando flexbox.
 - **JavaScript:** Para implementação do decodificador de mensagens.
 
-## Github Pages
+## ✅ Deploy
 https://pedrollopesb.github.io/studying-alura-challenges-encriptador_de_texto/
 
-Badge Challenge Alura & Oracle ONE
+https://studying-alura-challenges-encriptador-de-texto.vercel.app/
+
+## ⭐ Badge Challenge Alura & Oracle ONE
 ---
-![Prancheta 3](https://github.com/user-attachments/assets/be0fe943-38f0-4136-9679-60a7ca4fa2ae)
+![Decodificador de texto](https://github.com/user-attachments/assets/27af3179-6368-43b5-8f9f-47425ca934f1)
+
 
 ## 🎨 Apresentação e funcionamento:
 
